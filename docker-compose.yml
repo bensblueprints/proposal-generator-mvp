@@ -1,0 +1,23 @@
+services:
+  pitchcraft:
+    build: .
+    container_name: pitchcraft
+    restart: unless-stopped
+    ports:
+      - "5348:5348"
+    environment:
+      - PORT=5348
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/pitchcraft.db
+      - BASE_URL=${BASE_URL:-}
+      - NOTIFY_EMAIL=${NOTIFY_EMAIL:-}
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - pitchcraft-data:/app/data
+
+volumes:
+  pitchcraft-data:
