@@ -12,7 +12,7 @@ Proposify and PandaDoc charge **$19+/month per user, forever**, for what is fund
 
 Don't want to touch a terminal? Grab the packaged Windows installer (and support development):
 
-**→ [Get Pitchcraft on Whop](https://whop.com/onetime-suite)** — pay once, own it forever.
+**→ [Get Pitchcraft on Whop](https://whop.com/benjisaiempire/pitchcraft-app)** — pay once, own it forever.
 
 ## Features
 
