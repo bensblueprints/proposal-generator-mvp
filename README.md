@@ -1,5 +1,9 @@
 # 📜 Pitchcraft
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **The proposal tool you buy once and own forever.** Build proposals from content blocks, drop in a pricing table with client-toggleable add-ons, send a trackable link, and get a click-to-sign acceptance — all self-hosted, all yours.
